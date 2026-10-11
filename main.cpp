@@ -31,7 +31,7 @@ void show_calculator()
 }
 
 // Function to display the output
-void display_output(int answer)
+void display_output(double answer)
 {
     cout<<"-----------------------------------------"<<endl;
     cout<<"----                     ----------------"<<endl;
@@ -60,7 +60,7 @@ void display_output(int answer)
 int main() 
 {
     show_calculator();
-    display_output(5);
+    display_output(0.3323);
     return 0;
 }
 
